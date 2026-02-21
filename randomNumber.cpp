@@ -16,7 +16,7 @@ int main() {
         cin >> guess;
 
         if (guess > secret) {
-            cout << "Too high!" << endl;
+            cout << "Too high" << endl;
         }
         else if (guess < secret) {
             cout << "Too low" << endl;
